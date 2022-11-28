@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 $PYCODE
+python3 run_inline.py
