@@ -22,6 +22,8 @@ int check_cycle(listint_t *list)
 	{
 		if (first == last)
 			return (1);
+		first = first->next;
+		last = last->next->next;
 	}
 	return (0);
 }
