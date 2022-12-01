@@ -6,7 +6,8 @@ if __name__ == "__main__":
     if a == 0:
         print("{:d} arguments.".format(a))
     elif a == 1:
-        print("{:d}: argument:\n{:d}: {:s}".format(b, b, argv[b]))
+        print("{:d}: argument:".format(a))
+        print("{:d}: {:s}".format(b, argv[b]))
     else:
         print("{:d} arguments:".format(a))
         while(a > 0):
