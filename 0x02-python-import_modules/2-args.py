@@ -11,4 +11,3 @@ if __name__ == "__main__":
             print("{:d}: {:s}".format(b, argv[b]))
             b += 1
             a -= 1
-
