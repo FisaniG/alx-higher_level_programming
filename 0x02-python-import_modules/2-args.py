@@ -4,7 +4,7 @@ if __name__ == "__main__":
     a = len(argv) - 1
     b = 1
     if a < 1:
-        print("{:d} arguments.".format(a))
+        print("{:d} argument.".format(a))
     elif a == 1:
         print("{:d}: argument:".format(a))
         print("{:d}: {:s}".format(b, argv[b]))
