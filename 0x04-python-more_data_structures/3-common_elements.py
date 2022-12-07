@@ -2,7 +2,7 @@
 
 
 def common_elements(set_1, set_2):
-    if set_1 and set_2 is not None:
+    if set_1 or set_2 is None:
         new = []
         for i in set_1:
             if i in set_2:
