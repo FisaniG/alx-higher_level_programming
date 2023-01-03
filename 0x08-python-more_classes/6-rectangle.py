@@ -7,10 +7,15 @@ module rectangle class
 
 
 class Rectangle():
-    number_of_instances = 0
     '''
     this is class with width and height attributes
+
+    Attributes:
+        number _of_instances (int): instances count
     '''
+
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         '''
         initiaalises class_
